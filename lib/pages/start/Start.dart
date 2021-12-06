@@ -5,6 +5,17 @@ class Start extends StatelessWidget {
 
   @override
   Widget build(BuildContext context){
-    return Container();
+    return Scaffold(
+      backgroundColor: Colors.deepOrange,
+      appBar: AppBar(
+        title: Text('Diary Training', style: TextStyle(color: Colors.white),),
+        centerTitle: true
+      ),
+      body: Center(
+          child: ElevatedButton(onPressed: () {
+            Navigator.pushNamed(context, '/Sign');
+          }, child: Text('Start now'))
+      )
+    );
   }
 }

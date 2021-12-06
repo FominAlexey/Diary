@@ -5,6 +5,45 @@ class Sign extends StatelessWidget {
 
   @override
   Widget build(BuildContext context){
-    return Container();
+    return Scaffold(
+        backgroundColor: Colors.deepOrange,
+        appBar: AppBar(
+            title: Text('Diary Training', style: TextStyle(color: Colors.white),),
+            centerTitle: true
+        ),
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+                    Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                           children:[
+                            Container( width: 300,
+                              child: TextField(decoration: InputDecoration(
+                                border: OutlineInputBorder(),
+                                icon: Icon(Icons.login),
+                                hintText: "Введите логин",
+                                helperText: "Логин используется для входа в систему",
+                              ))
+                            ),
+                            Container( width: 300,
+                              child: TextField(decoration: InputDecoration(
+                                border: OutlineInputBorder(),
+                                icon: Icon(Icons.login),
+                                hintText: "Введите Пароль",
+                                helperText: "Пароль используется для входа в систему",
+                              ))
+                            ),
+                            ElevatedButton(onPressed: () {
+                                  Navigator.pushNamed(context, '/Main');
+                                  }, child: Text('Main')),
+                             ElevatedButton(onPressed: () {
+                               Navigator.pushNamed(context, '/Registration');
+                             }, child: Text('Registration'))
+            ],
+          ),
+        ]
+        )
+    );
   }
 }
