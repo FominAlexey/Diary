@@ -1,4 +1,4 @@
-import 'dart:html';
+//import 'dart:html';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -39,37 +39,7 @@ class Exercises extends StatelessWidget {
                                     '4х10-12  -  Жим Арнольда' '\n'),
                               ),
                             ],
-                          ),
-                          Row(
-                            children: [
-                              CheckboxWidget(),
-                              Container(
-                                width: MediaQuery.of(context).size.width * 0.4,
-                                child: Text('Тренировка на спина + бицепс:' '\n' '\n'
-                                    '4х12,10,8,6  -  Становая тяга классикой' '\n'
-                                    '4х10-12  -  Подтягивания широким хватом с дополнительным отягощением' '\n'
-                                    '4х10  -  Тяга штанги к поясу' '\n'
-                                    '3х10  -  Тяга верхнего блока узким обратным хватом' '\n'
-                                    '4х10  -  Сгибания рук со штангой стоя' '\n'
-                                    '3х12  -  Скручивания в тренажере' '\n'),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              CheckboxWidget(),
-                              Container(
-                                width: MediaQuery.of(context).size.width * 0.4,
-                                child: Text('Тренировка на ноги:' '\n' '\n'
-                                    '4х12,10,8,6  -  Приседания со штангой на плечах' '\n'
-                                    '3х10  -  Жим ногами в тренажере' '\n'
-                                    '3х10  -  Выпады со штангой' '\n'
-                                    '4х10  -  Румынская тяга с гантелями' '\n'
-                                    '4х12-15  -  Подъемы на носки стоя в тренажере' '\n'
-                                    '3х10-12  -  Подъемы ног в висе на турнике' '\n'),
-                              ),
-                            ],
-                          ),
+                          )
                         ],
                       ),
                     ],

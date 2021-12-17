@@ -25,7 +25,7 @@ class Main extends StatelessWidget {
                             Text('Ккалории'),
                       ]
            ),
-                      Container( width: 300,),
+                      Container( width: 150,),
                       Column(
                           children:[
                    Text('Вес'),
@@ -37,7 +37,6 @@ class Main extends StatelessWidget {
         children: [
         Text('Тренировка'),
                 ]),
-
                 Row(
                  children:[
                    ElevatedButton.icon(onPressed: () {
