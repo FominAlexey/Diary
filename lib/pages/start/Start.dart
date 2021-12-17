@@ -6,7 +6,7 @@ class Start extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      backgroundColor: Colors.deepOrange,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('Diary Training', style: TextStyle(color: Colors.white),),
         centerTitle: true

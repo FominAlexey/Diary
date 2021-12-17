@@ -6,7 +6,6 @@ import 'package:training_diary/pages/exercises/Exercises.dart';
 import 'package:training_diary/pages/main/Main.dart';
 import 'package:training_diary/pages/profile/Profile.dart';
 import 'package:training_diary/pages/registration/Registration.dart';
-import 'package:training_diary/pages/setting/Setting.dart';
 import 'package:training_diary/pages/sign/Sign.dart';
 import 'package:training_diary/pages/start/Start.dart';
 import 'package:training_diary/pages/statistics/Statistics.dart';
@@ -26,7 +25,6 @@ void main() => runApp(MaterialApp(
     '/Profile': (context) => Profile(),
     '/Training': (context) => Training(),
     '/Statistics': (context) => Statistics(),
-    '/Exercises': (context) => Exercises(),
-    '/Setting': (context) => Setting()
+    '/Exercises': (context) => Exercises()
   },
 ));

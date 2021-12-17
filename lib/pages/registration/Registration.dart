@@ -6,7 +6,7 @@ class Registration extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Scaffold(
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.white,
         appBar: AppBar(
             title: Text('Registration', style: TextStyle(color: Colors.white),),
             centerTitle: true
